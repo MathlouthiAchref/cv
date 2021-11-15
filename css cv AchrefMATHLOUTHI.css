@@ -1,0 +1,108 @@
+body{
+    background: linear-gradient(rgb(35, 35, 82),rgb(36, 104, 78), black)
+}
+h1{
+    text-shadow: 1px 3px 14px rgb(63, 23, 23), 0 0 6em rgb(80, 26, 76), 0 0 0.2em rgb(230, 13, 85);
+   text-align: center;
+   border-radius: 33px;
+   background: linear-gradient(blue,70%,rgb(25, 190, 141));
+}
+h2{
+    text-align:center;
+    background: linear-gradient(rgb(145, 251, 255),60%,rgb(0, 0, 66));
+    border-radius: 45px;
+}
+p  {
+    text-shadow: 4px 2px 3px rgb(76, 124, 214), 0 0 1em rgb(251, 255, 40), 0 0 0.2em rgb(183, 0, 255);
+    text-decoration: underline overline 3px #b2f573;
+    border-radius: 380px;
+    border-collapse: collapse;
+    background:linear-gradient(0.25turn,rgb(40, 40, 117) ,rgb(69, 241, 175),rgb(87, 3, 104));
+}
+button{
+    
+       
+       
+     
+    font: italic small-caps bold 36px cursive;
+    text-shadow: 3px 1px 2px rgb(63, 23, 23), 0 0 1em rgb(218, 175, 215), 0 0 0.2em rgb(9, 9, 102);
+     margin:initial;
+    font-size:10px; 
+    border: ridge rgb(240, 255, 107);
+    background: radial-gradient( rgb(0, 14, 206),rgb(63, 216, 114));
+    border-radius: 25%;
+     padding: 0.75%;
+    color: rgb(24, 0, 0);
+}
+
+
+
+  #comp {
+    position: center;
+    animation: duration 7.25s;
+     animation-name: move;
+     animation-iteration-count: infinite;
+     animation-timing-function: infinite;
+     left: 50%;
+}
+#ps{
+    text-align: center;
+}
+    
+    teanimate-transform{
+    position:center;
+    width:50%;
+    
+    
+    animation-iteration-count: infinite;
+    animation-timing-function:cubic-bezier(1.5, 0.95, 1.5, 0.95);
+    left: 50%;
+}
+
+
+  #certef{
+      position:static;
+      text-align: center;
+      animation-iteration-count: infinite;
+      animation-timing-function:cubic-bezier(-1.5, -0.95, -1.5, -0.95);
+      animation-duration:7s ;
+      animation-name: bom;
+  }
+
+  #pl{
+      text-align: center;
+  }
+
+  
+  
+
+
+#contac{
+
+    position:static;
+    text-align: center;
+    animation-iteration-count: infinite;
+    animation-timing-function:cubic-bezier(-1.5, -0.95, -1.5, -0.95);
+    animation-duration:6.75s ;
+    animation-name: move;
+}
+#pw{
+  text-align:center;
+}
+
+@keyframes move {
+    45%{
+     margin-left: 70%;
+    }
+     to{
+       left:80%;
+     }
+ }
+ @keyframes bom {
+       45%{
+       margin-left:70%;
+       }
+       to{
+          left:80%;
+       }
+    }
