@@ -2,6 +2,7 @@ body {
     background: linear-gradient(rgb(35, 35, 82), rgb(36, 104, 78), black);
   }
   
+  
   h1 {
     text-shadow: 1px 3px 14px rgb(333, 23, 213), 0 0 6em rgb(33, 26, 16),
       0 0 0.2em rgb(230, 13, 85);
